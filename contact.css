@@ -1,0 +1,130 @@
+/** @format */
+
+body {
+	margin: 0;
+}
+
+.main {
+	padding: 16px;
+	margin-top: 30px;
+	height: 1000px;
+}
+
+.cnav {
+	overflow: hidden;
+	background-color: #333;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 1px;
+	height: 4rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+}
+
+nav ul li {
+	margin: 1rem;
+}
+
+nav ul li a {
+	color: white;
+}
+
+nav ul li a:hover {
+	background: #ddd;
+	color: black;
+}
+
+nav ul li i {
+	color: white;
+}
+
+header .container {
+	height: 15rem;
+	background-color: blue;
+}
+
+footer .footerul {
+	list-style: none;
+	display: flex;
+	justify-content: end;
+	flex-wrap: wrap;
+	color: white;
+}
+
+.cfooter {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+footer ul li {
+	margin: 1rem;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#area {
+	position: relative;
+	left: 30%;
+	top: 10em;
+	width: 320px;
+	height: 270px;
+}
+#area #formulario {
+	position: absolute;
+	display: block;
+}
+
+fieldset {
+	background-color: #a7c0dc;
+	width: 300px;
+	height: 250px;
+}
+legend {
+	font-weight: bold;
+	font-family: "Segoe UI", "Arial", "Times New Roman";
+}
+#formulario label {
+	position: absolute;
+	left: 19px;
+	margin-right: 5px;
+}
+#formulario input.campo_nome {
+	background-color: #f1ff00;
+	position: absolute;
+	left: 95px;
+	top: 23px;
+	width: 225px;
+}
+#formulario input.campo_email {
+	background-color: #f1ff00;
+	position: absolute;
+	left: 95px;
+	margin-top: 2px;
+	width: 225px;
+}
+#formulario textarea.msg {
+	position: absolute;
+	background-color: #f1ff00;
+}
+
+#formulario input.btn_submit {
+	border-style: dashed;
+	position: absolute;
+	bottom: 0.5em;
+	right: 10px;
+	background-color: #f1ff00;
+}

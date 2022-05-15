@@ -1,0 +1,91 @@
+/** @format */
+
+body {
+	margin: 0;
+}
+
+.main {
+	padding: 16px;
+	margin-top: 30px;
+	height: 1000px;
+}
+
+.cnav {
+	overflow: hidden;
+	background-color: #333;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 1px;
+	height: 4rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+}
+
+nav ul li {
+	margin: 1rem;
+}
+
+nav ul li a {
+	color: white;
+}
+
+nav ul li a:hover {
+	background: #ddd;
+	color: black;
+}
+
+nav ul li i {
+	color: white;
+}
+
+.container {
+	height: 15rem;
+	background-color: gray;
+}
+
+header h1 {
+	padding-top: 7rem;
+	text-align: center;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section div h1,
+h2,
+h3 {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	text-indent: 50px;
+}
+
+footer .footerul {
+	list-style: none;
+	display: flex;
+	justify-content: end;
+	flex-wrap: wrap;
+	color: white;
+}
+
+.cfooter {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+footer ul li {
+	margin: 1rem;
+}

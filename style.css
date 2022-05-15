@@ -1,0 +1,118 @@
+/** @format */
+
+body {
+	margin: 0;
+}
+
+.main {
+	padding: 16px;
+	margin-top: 30px;
+	height: 1000px;
+}
+
+.cnav {
+	overflow: hidden;
+	background-color: #333;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 1px;
+	height: 4rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+}
+
+nav ul li {
+	margin: 1rem;
+}
+
+nav ul li a {
+	color: white;
+}
+
+nav ul li a:hover {
+	background: #ddd;
+	color: black;
+}
+
+nav ul li i {
+	color: white;
+}
+
+.classheader {
+	height: 15rem;
+	background-color: blue;
+}
+
+.headerh1 {
+	text-align: center;
+	margin: auto;
+
+	padding: 3.5rem 0;
+	text-shadow: 2px 2px #00a6ff;
+}
+
+.firstp {
+	text-indent: 50px;
+}
+
+.secondp {
+	text-indent: 50px;
+}
+
+.imagem {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	width: 27rem;
+	height: 30rem;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: blue;
+}
+
+.cards div {
+	background-color: blanchedalmond;
+	width: 10rem;
+	height: 13rem;
+	text-align: center;
+
+	padding: 0.2rem;
+	margin: 0.5rem;
+}
+
+div div img {
+	height: 8rem;
+	width: 9.5rem;
+}
+
+footer .footerul {
+	list-style: none;
+	display: flex;
+	justify-content: end;
+	flex-wrap: wrap;
+	color: white;
+}
+
+.cfooter {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+footer ul li {
+	margin: 1rem;
+}
